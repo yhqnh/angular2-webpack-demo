@@ -4,4 +4,7 @@ import { Component } from '@angular/core';
     templateUrl: 'app.ui.component.html',
     styleUrls: ['./app.ui.component.css']
 })
-export class AppUiComponent { }
+export class AppUiComponent {
+    page = 1;
+    name = 'World';
+}
