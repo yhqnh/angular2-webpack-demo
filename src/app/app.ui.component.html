@@ -85,3 +85,30 @@
 <button type="button" class="btn btn-secondary" [ngbTooltip]="tipContent">
     I've got markup and bindings in my tooltip!
 </button>
+
+<h1>Hello, world!</h1>
+
+<progress class="progress progress-success" value="25" max="100">25%</progress>
+<progress class="progress progress-info" value="50" max="100">50%</progress>
+<progress class="progress progress-warning" value="75" max="100">75%</progress>
+<progress class="progress progress-danger" value="100" max="100">100%</progress>
+
+<nav aria-label="...">
+    <ul class="pagination pagination-sm">
+        <li class="page-item">
+            <a class="page-link" href="#" aria-label="Previous">
+                <span aria-hidden="true">&laquo;</span>
+                <span class="sr-only">Previous</span>
+            </a>
+        </li>
+        <li class="page-item" *ngFor="let item of items; let i = index; trackBy: trackByFn">
+            <a class="page-link" href="#">{{i}}</a>
+        </li>
+        <li class="page-item">
+            <a class="page-link" href="#" aria-label="Next">
+                <span aria-hidden="true">&raquo;</span>
+                <span class="sr-only">Next</span>
+            </a>
+        </li>
+    </ul>
+</nav>

@@ -2,3 +2,9 @@ body {
     background: #0147A7;
     color: #fff;
 }
+
+.selector-for-some-widget {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}

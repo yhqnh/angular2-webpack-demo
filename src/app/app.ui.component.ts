@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 export class AppUiComponent {
     page = 1;
     name = 'World';
+    items = ["1","2","3"];
 }
